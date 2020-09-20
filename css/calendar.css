@@ -1,6 +1,6 @@
 body{
   background-image: url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/img/calendar.jpg");
- }
+}
 
 * {
   color: #fff;
@@ -16,11 +16,12 @@ td, th{
 }
 
 table{
-  background: #048234;
+  background: #34a105;
+  
 }
 
 th{
-  background: #355c4f;
+  background: #34a105;
 }
 
 b{
