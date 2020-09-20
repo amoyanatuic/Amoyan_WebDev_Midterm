@@ -1,1 +1,55 @@
+body{
+  background: url('https://png.pngtree.com/thumb_back/fw800/background/20190619/pngtree-floral-tropical-pattern-image_130772.jpg');
+  background-size: 350px;
+}
 
+* {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+}
+
+td, th{
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table{
+  background: #599984;
+}
+
+th{
+  background: #355c4f;
+}
+
+b{
+  color: #6e201e;
+  transition: 2s;
+  font-weight: bolder;
+}
+
+b:hover{
+  color: #e6328f;
+  transition: 2s;
+  cursor: pointer;
+}
+
+#content{
+  background: #;
+  width: 430px;
+  margin: auto;
+  position: relative;
+  top: 60px;
+}
+
+h1{
+  font-family: 'Francois One';
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #fff;
+  text-shadow: 3px 3px 8px #000;
+}
