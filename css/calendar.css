@@ -1,5 +1,5 @@
 body{
-  background-image: url("calendar.jpg");
+  background-image: url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/img/calendar.jpg");
   background-size: 350px;
 }
 
@@ -7,7 +7,7 @@ body{
   color: #fff;
   font-size: 20px;
   line-height: 1.5;
-  font-family: 'Open Sans';
+  font-family: 'Tahoma';
 }
 
 td, th{
