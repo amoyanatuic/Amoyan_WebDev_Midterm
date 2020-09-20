@@ -37,13 +37,13 @@ td {
 	padding: 3em 2em;
 }
 
-#year {
+#month {
 	font-size: 8em;
 	font-weight: 500;
 	line-height: 1em;
 }
 
-#month {
+#year {
 	font-size: 4em;
 	line-height: 1em;
 	text-transform: lowercase;
