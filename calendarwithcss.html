@@ -1,35 +1,35 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head>
-  <title>Calendarwithcss</title>
-  <meta charset="utf-8">
-
-  <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <head>
+        <title>Calendar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    </head>
   
-  <link rel="stylesheet" type="text/css" href="calendar.css">
+    <body>
+      <div class="container">
+  <div class="calendar-container">
+    <header>
+      
+      <div id="month">June</div>
+      <div id="year">1992</div>
 
-</head>
-
-<body>
-
-    <div id="content">
-      <h1> My Birthmonth</h1>
-      <table>
-
-        <tr>
-          <th colspan="7">June 1992</th>
-        </tr>
-
-        <tr>
-          <th>Sun</th>
-          <th>Mon</th>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thu</th>
-          <th>Fri</th>
-          <th>Sat</th>          
-        </tr>
-
+    </header>
+    
+    <table class="calendar">
+    <thead>
+         <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>      
+         </tr>
+        
+        </thead>
+        <tbody> 
         <tr>
           <td></td>
           <td>1</td>
@@ -37,51 +37,51 @@
           <td>3</td>
           <td>4</td>
           <td>5</td>
-          <td>6</td>
-        </tr>
-
-        <tr>
-          <td>
-            <center>7
-          </td>
+          <td>6</td>          
+      </tr>
+      <tr>
+          <td>7</td>
           <td>8</td>
           <td>9</td>
           <td>10</td>
           <td>11</td>
           <td>12</td>
-          <td>13</td>
-        </tr>
-
-        <tr>
+          <td>13</td>          
+      </tr>
+      <tr>
           <td>14</td>
           <td>15</td>
           <td>16</td>
           <td>17</td>
           <td>18</td>
           <td>19</td>
-          <td>20</td>
-        </tr>
-
-        <tr>
-          <td><b>21</b></td>
+          <td>20</td>          
+      </tr>
+      <tr>
+          <td>21</td>
           <td>22</td>
           <td>23</td>
           <td>24</td>
           <td>25</td>
           <td>26</td>
-          <td>27</td>
-        </tr>
-
-        <tr>
+          <td>27</td>          
+      </tr>
+      <tr>
           <td>28</td>
           <td>29</td>
           <td>30</td>
           <td></td>
-        </tr>
-
+          <td></td>
+          <td></td>
+          <td></td>          
+      </tr>
+      </tbody>
       </table>
-    </div>
+             <div class="ring_left"></div>
+            <div class="ring_right"></div>
 
-</body>
+  </div> <!-- end calendar-container -->
 
+</div> <!-- end container -->
+    </body>
 </html>
