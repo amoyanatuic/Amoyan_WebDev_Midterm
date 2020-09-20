@@ -2,10 +2,9 @@
   margin: 0;
   padding: 0;
 }
-body {	
- 	background-image: url("calendar.jpg");
-	width: 70%;
-	height: 530px;
+body {
+	background-color: #8a8c89;
+  	background-image: url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/poem.html/calendar.jpg");
 	font: 87.5%/1.5em 'Lato', sans-serif;
 	margin: 0;
 }
