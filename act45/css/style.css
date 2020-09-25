@@ -1,5 +1,6 @@
-html {background-color : #F0F0F0;}
-
+html {
+    background-color : #F0F0F0;
+}
 body {
     width : 980px;
     margin-left : auto;
@@ -8,20 +9,17 @@ body {
     font-size : 1.2em;
     color : #404040;
     background-color : white;
-    padding : 10px;
-    padding-top : 0px;
+    padding : 5px;
 }
-
 a {
     color : #3AA6D0;    
     text-decoration : none;
 }
-
 /* H TAGS */
 
 h1 {
     font-size : 3em;
-    color : #FF2C00;
+    color : FF2C00;
 }
 
 h1.toptitle {
@@ -32,6 +30,7 @@ h2 {
     font-size : 1.5em;
     color : #FF8500;
 }
+
 
 h3 {
     font-size : 1.2em;
@@ -55,6 +54,7 @@ aside h1 {
     margin-top : 0px;
 }
 
+
 aside h2 {
     font-size : 1em;
 }
@@ -70,7 +70,6 @@ aside ul {
     list-style-type : square;
     color : #FF8500;
 }
-
 
 header {
     margin-bottom : 40px;
@@ -90,14 +89,19 @@ nav h1 {
 nav ul {
     list-style-type : none;
     margin : 0;
-    padding : 0;
+    padding : 0;   
 }
+
 
 nav li {
     display : inline;
+    border-top: 3px solid #63DC90;
+    border-bottom: 3px solid #63DC90;
+    padding: 10px; 
 }
 
 nav a {
+    margin-top: 10rem;
     font-weight : bold;
     color : #0776A0;
 }
@@ -106,7 +110,7 @@ nav hr {
     width : 300px;
     margin-right : auto;
     margin-left : auto;
-    background-color : #63DC90;
+    background-color : #a0a0a0;
     color : #63DC90;
     height: 3px;
     border:3px;
@@ -131,6 +135,21 @@ img.top-image {
 
 ul.body-list{
     list-style-position : inside;
-    list-style-image : url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act45/css/small_arrow.png");
+    list-style-image : url('small_arrow.png');
     line-height : 1.8em;
+}
+#title{
+    color: red;
+    margin-top: 2px;
+}
+aside div #other{
+    color: red;
+}
+div.toptitle img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
 }
