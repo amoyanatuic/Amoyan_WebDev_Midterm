@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Testing CSS</title>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Testing Style Sheets</title>
+        <meta name="description" content="This page serves the purpose of testing style sheets on a variety of different element" property="">
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
         <header>
-            <div class="toptitle"><img src="img src="https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act45/css/dna_square_100x100.png" alt="dna square"> <h1 id="title">Testing CSS</h1> </div>
-            
+            <div class="toptitle"><img src="dna_square_100x100.png" alt="dna square"> <h1 id="title">Testing CSS</h1> </div>
             <nav>
-                <h1>Navigation Menu</h1>
+                <div class="page">
                 <ul>
                     <li><a href="page1.html">page1</a> – </li>
                     <li><a href="page2.html">page2</a> – </li>
-                    <li><a href="page3.html">page3</a></li>
+                    <li><a href="page3.html">page3</a> </li>
                 </ul>
+            </div>
             </nav>
         </header>
- 
         <aside>
-            <h1>Tangentially related stuff</h1>
+            <div id="other">
+                Tangentially related stuff
+            </div>
             <div>
                 <h2>Cool Links</h2>
                 <ul>
@@ -29,7 +31,7 @@
                     <li><a href="http://www.ncbi.nlm.nih.gov/pubmed">Pubmed</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="quote">
                 <h2>Daily quote</h2>
                 <p>It is a scientific fact that your body will not absorb cholesterol if you take it from another person’s plate</p>
             </div>
@@ -37,13 +39,13 @@
  
         <p>This page has the purpose of testing CSS. <br>
         What follows is a random list of elements, inserted only because we will style it.
+        </p>
  
-        <ul>
+        <ul class="body-list">
             <li>First list element</li>
             <li>Second list element</li>
             <li>Third list element</li>
         </ul>
-        </p>
         <h2>Section 1: Web Applications</h2>
  
         <p>This is the first section of this page, it is about web applications for Bioinformatics.</p>
@@ -52,6 +54,5 @@
         <p>This is the "Input" subsection.<br>
         It focuses on how we get data from the user.<br>
         This is usually done through a web form.</p>
-        
     </body>
 </html>
