@@ -21,7 +21,7 @@ a {
 
 h1 {
     font-size : 3em;
-    color : FF2C00;
+    color : #FF2C00;
 }
 
 h1.toptitle {
@@ -131,6 +131,6 @@ img.top-image {
 
 ul.body-list{
     list-style-position : inside;
-    list-style-image : url('https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act45/css/small_arrow.png');
+    list-style-image : url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act45/css/small_arrow.png");
     line-height : 1.8em;
 }
