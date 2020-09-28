@@ -1,20 +1,24 @@
+body{
+  background-image:          url("https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act47/css/Heat.jpg");
+   margin-left: auto;
+    margin-right: auto;
+  }
 #container {
     margin-left: auto;
     margin-right: auto;
     width: 1100px;
     background-color:white;
-    }
+}
 
 #header {
     width: 950px;
     height: 550px;
     background-color: ghostwhite;
-    background-image: url(https://www.hdwallpapers.in/walls/steve_jobs-wide.jpg);
-    background-size:cover;
+    background-image: url(https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/act47/css/Herro_14.jpg);
+    background-size:cover;    
     margin-left: auto;
     margin-right: auto;
 }
-
 #quote-1 {
     height: 75px;
 }
@@ -28,22 +32,20 @@ p span {
 
 #text {
     text-align: center;
-    font-family:'Pacifico', cursive;
+    font-family:'Tahoma', cursive;
     font-size: 25px;
 }
-
-#bio-header {
-    background: url(http://allaboutstevejobs.com/bio/bio-header.jpg) no-repeat;
+#bio-header {    
     position: relative;
     top:10px;
     left:150px;
 }
-
 .subsection-header {
     line-height: 120px;
     padding-left: 30px;
-    font-size: 50px;
-    color: #ececec;
+    font-family:'Tahoma', cursive;
+    font-size: 50px;    
+    color: #000;
     font-weight: bold;
     height: 120px;
     width: 768px;
@@ -64,14 +66,13 @@ p span {
     position: relative;
     top: 25px;
     left: 10px;
-    font-family: 'Dosis' , sans-serif;
+    font-family: 'Tahoma' , sans-serif;
 }
 
 .event-date-first-child {
     border-top: 1px solid #ccc;
     margin-top: 0;
 }
-
 .event-date {
     width: 100px;
     height:7px;
@@ -122,7 +123,7 @@ p span {
 
 .info {
     font-size: 90%;
-    font-family: 'Dosis' , sans-serif;
+    font-family: 'Arial' , sans-serif;
     position: relative;
     margin-bottom: 2em;
     text-align: center;
@@ -137,19 +138,17 @@ p span {
 }
 
 #nutshell {
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Tahoma' , sans-serif;
     font-weight:bold;
     font-size: 26px;
 }
 
 #footer {
     background-color:#ececec;
-    height: 200px;
 }
 
 #quote {
-    font-family: 'Pacifico', cursive;
-    text-align:center;
+    font-family: 'Arial', cursive;    
     font-size: 24px;
     position: relative;
     top:5px;
