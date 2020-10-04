@@ -51,6 +51,12 @@ a.anchor {
   #splash a:hover{
     color: #e7e7e7;
   }
+#qoute {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
 
 #portfolio{
   background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
