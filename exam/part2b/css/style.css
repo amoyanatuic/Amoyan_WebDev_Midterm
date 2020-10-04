@@ -51,6 +51,7 @@ a.anchor {
   #splash a:hover{
     color: #e7e7e7;
   }
+
 #portfolio{
   background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
   background-attachment: fixed;
@@ -150,7 +151,7 @@ a.anchor {
 }
 
 #contact{
-  background-image: url(https://www.zastavki.com/pictures/originals/2015/Computers_Man_holds_the_program_code_098860_.jpg);
+  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/contact.jpg);
   background-position: center;
   background-size: cover;
   height: 100%;
