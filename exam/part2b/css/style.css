@@ -25,6 +25,11 @@ a.anchor {
   text-transform: capitalize;
 }
 
+p.impact {
+  font-family: Tahoma, Charcoal, sans-serif;
+  font-size: 2em;
+}
+
 #splash{
   background-image: url(https://amoyanatuic.github.io/Amoyan_WebDev_Midterm/exam/part2b/images/bckgrnd.jpg);
   background-size: cover;
