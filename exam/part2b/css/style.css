@@ -25,7 +25,7 @@ a.anchor {
   text-transform: capitalize;
 }
 
-p.impact {
+p{
   font-family: Tahoma, Charcoal, sans-serif;
   font-size: 2em;
   font-style: italic;
